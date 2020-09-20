@@ -1,0 +1,41 @@
+.AnswerList{
+    min-width:600px;
+     &-title{
+         font-size:33px;
+     }
+     .Quiz{
+         border:2px solid #fff;
+         border-radius: 5px;
+         margin-top:20px;
+         padding:30px 15px; 
+        .Quiz-info{
+            align-items: center;
+            .Quiz-info-title{
+                font-size:24px;
+            }
+        }
+        .Quiz-answers{
+            margin-top:15px;
+            >div{
+                cursor:pointer;
+                padding:5px;
+                border-radius:5px;
+                border:2px solid #fff;
+                margin-top:12px;
+                &:hover{
+                    background-color: #f5a0ac;;
+                }
+            }
+        }
+    }
+}
+.dflex{
+    display: flex;
+    justify-content: space-between;
+}
+.succes{
+    background-color: blue !important;
+}
+.fail{
+    background-color: red !important;
+}
